@@ -1,0 +1,18 @@
+CRITICAL - 2023-07-17 09:31:04 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\ProfileController.php(199): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-17 09:31:16 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\ProfileController.php(199): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

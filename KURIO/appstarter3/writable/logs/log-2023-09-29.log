@@ -1,0 +1,206 @@
+ERROR - 2023-09-29 06:24:28 --> mysqli_sql_exception: Unknown column 'firstname' in 'field list' in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `aj...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `aj...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `aj...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `aj...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\EmployeeController.php(93): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\EmployeeController->store()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#10 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-09-29 06:24:28 --> Unknown column 'firstname' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (\'Rita\', \'Rathaur\', \'testarchita123@gmail.com\', \'9140593079\', \'Quality Assuarance\', \'1695968668_bd24250098100c4652e1.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (\'Rita\', \'Rathaur\', \'testarchita123@gmail.com\', \'9140593079\', \'Quality Assuarance\', \'1695968668_bd24250098100c4652e1.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (\'Rita\', \'Rathaur\', \'testarchita123@gmail.com\', \'9140593079\', \'Quality Assuarance\', \'1695968668_bd24250098100c4652e1.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (:firstname:, :lastname:, :email:, :phone:, :post:, :image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EmployeeController.php(93): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EmployeeController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-09-29 06:26:39 --> mysqli_sql_exception: Unknown column 'firstname' in 'field list' in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `aj...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `aj...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `aj...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `aj...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\EmployeeController.php(93): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\EmployeeController->store()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#10 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-09-29 06:26:39 --> Unknown column 'firstname' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (\'Rita\', \'Sharma\', \'testarchita123@gmail.com\', \'9140593079\', \'Junior Developer\', \'1695968799_47fd81523c08f0f9675b.gif\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (\'Rita\', \'Sharma\', \'testarchita123@gmail.com\', \'9140593079\', \'Junior Developer\', \'1695968799_47fd81523c08f0f9675b.gif\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (\'Rita\', \'Sharma\', \'testarchita123@gmail.com\', \'9140593079\', \'Junior Developer\', \'1695968799_47fd81523c08f0f9675b.gif\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (:firstname:, :lastname:, :email:, :phone:, :post:, :image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EmployeeController.php(93): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EmployeeController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-09-29 06:29:49 --> mysqli_sql_exception: Unknown column 'firstname' in 'field list' in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `aj...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `aj...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `aj...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `aj...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\EmployeeController.php(93): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\EmployeeController->store()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#10 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-09-29 06:29:49 --> Unknown column 'firstname' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (\'Rita\', \'Rathaur\', \'testarchita123@gmail.com\', \'9140593079\', \'Quality Assuarance\', \'1695968989_1c9d809328adf8e3c0c2.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (\'Rita\', \'Rathaur\', \'testarchita123@gmail.com\', \'9140593079\', \'Quality Assuarance\', \'1695968989_1c9d809328adf8e3c0c2.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (\'Rita\', \'Rathaur\', \'testarchita123@gmail.com\', \'9140593079\', \'Quality Assuarance\', \'1695968989_1c9d809328adf8e3c0c2.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ajax_file_upload` (`firstname`, `lastname`, `email`, `phone`, `post`, `image`) VALUES (:firstname:, :lastname:, :email:, :phone:, :post:, :image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EmployeeController.php(93): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EmployeeController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-29 07:40:34 --> syntax error, unexpected '$data' (T_VARIABLE)
+in APPPATH\Controllers\EmployeeController.php on line 62.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\EmployeeController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\EmployeeController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-29 08:24:49 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\ProfileController.php(201): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-29 08:29:02 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\ProfileController.php(201): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-09-29 10:51:25 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (An attempt was made to access a socket in a way forbidden by its access permissions.
+) in C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 10013, 'An attempt was ...', 5)
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\EmployeeController.php(129): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\EmployeeController->update()
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-09-29 10:51:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-29 10:51:25 --> 
+ERROR - 2023-09-29 10:53:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-29 10:53:21 --> 220 smtp.gmail.com ESMTP i11-20020a170902eb4b00b001c61921d4d2sm10117558pli.302 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.245.34.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i11-20020a170902eb4b00b001c61921d4d2sm10117558pli.302 - gsmtp
+
+ERROR - 2023-09-29 10:55:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-29 10:55:26 --> 220 smtp.gmail.com ESMTP q11-20020a17090311cb00b001c3721897fcsm16633801plh.277 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.245.34.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q11-20020a17090311cb00b001c3721897fcsm16633801plh.277 - gsmtp
+
+ERROR - 2023-09-29 10:57:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-29 10:57:09 --> 220 smtp.gmail.com ESMTP g2-20020a639f02000000b0058563287aedsm3533325pge.72 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.245.34.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g2-20020a639f02000000b0058563287aedsm3533325pge.72 - gsmtp
+
+ERROR - 2023-09-29 10:58:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-29 10:58:26 --> 220 smtp.gmail.com ESMTP e24-20020a62aa18000000b0068ff6d21563sm15223558pff.148 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.245.34.226]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e24-20020a62aa18000000b0068ff6d21563sm15223558pff.148 - gsmtp
+
+CRITICAL - 2023-09-29 12:02:57 --> Call to a member function setFlashdata() on null
+in APPPATH\Controllers\EmployeeController.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EmployeeController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

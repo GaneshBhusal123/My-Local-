@@ -1,0 +1,413 @@
+CRITICAL - 2023-09-22 05:14:20 --> Invalid argument supplied for foreach()
+in APPPATH\Views\book_view.php on line 36.
+ 1 APPPATH\Views\book_view.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\book_view.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\book_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book_view', [], true)
+ 5 APPPATH\Controllers\Book.php(60): view('book_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->book_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 06:37:17 --> syntax error, unexpected 'public' (T_PUBLIC)
+in APPPATH\Controllers\Book.php on line 123.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Book')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Book')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Book')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Book', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 08:41:59 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 08:48:17 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 08:50:54 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:03:00 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:08:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:11:17 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:11:42 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:27:53 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:28:37 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:29:18 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:30:34 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:33:43 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:50:22 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:53:55 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:56:19 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:57:18 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:57:55 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 09:59:16 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:05:42 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:09:53 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:10:08 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:23:27 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:24:18 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:24:36 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:25:54 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:26:42 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:27:10 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:34:44 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\Book.php on line 125 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 934.
+ 1 APPPATH\Controllers\Book.php(125): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:51:52 --> Function name must be a string
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:52:27 --> Function name must be a string
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:54:18 --> Function name must be a string
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:54:28 --> Function name must be a string
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:55:25 --> Function name must be a string
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:55:43 --> Function name must be a string
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:56:05 --> Function name must be a string
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 10:56:22 --> Function name must be a string
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:00:30 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:02:26 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:03:35 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\Book.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:03:47 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\Book.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:09:18 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:09:53 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:39:23 --> Function name must be a string
+in APPPATH\Controllers\Book.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:46:31 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:47:11 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:50:08 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:50:17 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:52:33 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:52:42 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:52:55 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 11:56:23 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 12:24:48 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 12:31:58 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Book.php on line 134.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Book')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Book')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Book')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Book', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 12:41:36 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-22 12:50:47 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Book.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

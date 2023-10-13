@@ -1,0 +1,924 @@
+CRITICAL - 2023-07-03 04:19:06 --> Unclosed '{' on line 103
+in APPPATH\Views\dropdown-view.php on line 201.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(32): view('dropdown-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:01:06 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 95.
+ 1 APPPATH\Views\dropdown-view.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(33): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:01:55 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 95.
+ 1 APPPATH\Views\dropdown-view.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(33): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:17:54 --> Undefined variable $countries
+in APPPATH\Views\dropdown-view.php on line 101.
+ 1 APPPATH\Views\dropdown-view.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(29): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:28:14 --> Undefined variable $countries
+in APPPATH\Views\dropdown-view.php on line 101.
+ 1 APPPATH\Views\dropdown-view.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(29): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:31:11 --> Class "App\Controllers\UserfileModel" not found
+in APPPATH\Controllers\DropdownAjaxController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:31:47 --> Undefined variable $id
+in APPPATH\Controllers\DropdownAjaxController.php on line 29.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:36:01 --> Undefined variable $userlist
+in APPPATH\Views\dropdown-view.php on line 95.
+ 1 APPPATH\Views\dropdown-view.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(35): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:36:26 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 95.
+ 1 APPPATH\Views\dropdown-view.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(35): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:36:28 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 95.
+ 1 APPPATH\Views\dropdown-view.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(35): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:40:26 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 95.
+ 1 APPPATH\Views\dropdown-view.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(36): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:41:08 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 95.
+ 1 APPPATH\Views\dropdown-view.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(36): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:46:25 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 96.
+ 1 APPPATH\Views\dropdown-view.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(36): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:47:53 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 96.
+ 1 APPPATH\Views\dropdown-view.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(36): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:47:55 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 96.
+ 1 APPPATH\Views\dropdown-view.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(36): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:57:33 --> Undefined variable $countries
+in APPPATH\Views\dropdown-view.php on line 101.
+ 1 APPPATH\Views\dropdown-view.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(32): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:58:35 --> Undefined variable $countries
+in APPPATH\Views\dropdown-view.php on line 101.
+ 1 APPPATH\Views\dropdown-view.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(32): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:59:47 --> Undefined variable $countries
+in APPPATH\Views\dropdown-view.php on line 101.
+ 1 APPPATH\Views\dropdown-view.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(32): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 05:59:52 --> Undefined variable $countries
+in APPPATH\Views\dropdown-view.php on line 101.
+ 1 APPPATH\Views\dropdown-view.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(32): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 06:08:41 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\DropdownAjaxController.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DropdownAjaxController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DropdownAjaxController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DropdownAjaxController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 07:33:54 --> Undefined array key "address"
+in APPPATH\Views\dropdown-view.php on line 94.
+ 1 APPPATH\Views\dropdown-view.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(32): view('dropdown-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 11:39:26 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 11:39:34 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:33:48 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:34:10 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:38:15 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:39:32 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:44:57 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:45:37 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:45:58 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:46:01 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:46:32 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:46:36 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:46:39 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:47:11 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:47:29 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:47:30 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:47:30 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:47:31 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:47:31 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:47:41 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:48:33 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:49:31 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:49:32 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:49:32 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:49:32 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:49:32 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:49:57 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:51:43 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:53:52 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:53:53 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:53:53 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:53:53 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:53:53 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:53:53 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:53:53 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:53:54 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:53:54 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 12:54:25 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(162): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 13:00:28 --> Undefined array key "Country_Name"
+in APPPATH\Views\dropdown_userlist.php on line 67.
+ 1 APPPATH\Views\dropdown_userlist.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown_userlist.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown_userlist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown_userlist', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(168): view('dropdown_userlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-07-03 13:26:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3 in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 13:26:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', [], false)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-07-03 13:32:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3 in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 13:32:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', [], false)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-07-03 13:32:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3 in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 13:32:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', [], false)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-07-03 13:33:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3 in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 13:33:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', [], false)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-07-03 13:40:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3 in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 13:40:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', [], false)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-07-03 13:42:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3 in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 13:42:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', [], false)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-07-03 13:42:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3 in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 13:42:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', [], false)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 13:45:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::leftjoin()
+in APPPATH\Controllers\DropdownAjaxController.php on line 165.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 13:47:54 --> syntax error, unexpected identifier "join"
+in APPPATH\Controllers\DropdownAjaxController.php on line 165.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DropdownAjaxController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DropdownAjaxController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DropdownAjaxController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 13:48:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::leftjoin()
+in APPPATH\Controllers\DropdownAjaxController.php on line 165.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-07-03 13:50:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3 in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 13:50:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', [], false)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-03 13:56:28 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\DropdownAjaxController.php on line 165.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DropdownAjaxController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DropdownAjaxController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DropdownAjaxController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-07-03 13:57:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3 in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 13:57:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id` ON `profile`.`states` = `states`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `profile`.*, `countries`.`name` as `Country_Name`, `states`.`name` as `State_Name`, `cities`.`name` as `City_Name`
+FROM `profile`
+JOIN `countries ON profile`.`countries =` `countries`.`id` ON `profile`.`states` = `states`.`id`', [], false)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(166): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

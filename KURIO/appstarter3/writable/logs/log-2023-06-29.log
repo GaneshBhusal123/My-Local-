@@ -1,0 +1,603 @@
+CRITICAL - 2023-06-29 06:10:27 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\Main_model.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:11:40 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\Main_model.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:12:26 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\Main_model.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:13:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\Main_model.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:14:02 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\Main_model.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:15:43 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\Main_model.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:16:28 --> Class "App\Models\Main_model" not found
+in APPPATH\Controllers\DropdownAjaxController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 06:17:59 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\Main.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:18:50 --> Class "App\Models\Main" not found
+in APPPATH\Controllers\DropdownAjaxController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 06:19:55 --> Class "App\Models\Main" not found
+in APPPATH\Controllers\DropdownAjaxController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 06:24:20 --> Class "App\Controllers\Main" not found
+in APPPATH\Controllers\DropdownAjaxController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 06:24:52 --> Class "App\Models\MainModel" not found
+in APPPATH\Controllers\DropdownAjaxController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 06:26:32 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:26:53 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:27:12 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:27:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:27:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:27:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:27:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:27:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:27:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:27:16 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:27:16 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:44:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:46:30 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:47:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\MainModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 06:48:42 --> Undefined variable $countries
+in APPPATH\Views\dropdown-view.php on line 27.
+ 1 APPPATH\Views\dropdown-view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(15): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 06:58:40 --> Cannot declare class App\Controllers\DropdownAjaxController, because the name is already in use
+in APPPATH\Models\MainModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 07:00:01 --> Cannot declare class App\Controllers\MainModel because the name is already in use
+in APPPATH\Models\MainModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-29 07:01:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DropdownAjaxController.php(20): CodeIgniter\Model->__call('getCountries', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:03:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Models\MainModel.php on line 21.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:05:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Models\MainModel.php on line 21.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:07:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\MainModel.php(15): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\DropdownAjaxController.php(19): App\Models\MainModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:09:30 --> codeigniter_db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\MainModel.php(16): CodeIgniter\Database\Config::connect('codeigniter_db')
+ 2 APPPATH\Controllers\DropdownAjaxController.php(19): App\Models\MainModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:09:37 --> codeigniter_db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\MainModel.php(16): CodeIgniter\Database\Config::connect('codeigniter_db')
+ 2 APPPATH\Controllers\DropdownAjaxController.php(19): App\Models\MainModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:10:24 --> codeigniter_db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\MainModel.php(21): CodeIgniter\Database\Config::connect('codeigniter_db')
+ 2 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:10:27 --> codeigniter_db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\MainModel.php(21): CodeIgniter\Database\Config::connect('codeigniter_db')
+ 2 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:10:27 --> codeigniter_db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\MainModel.php(21): CodeIgniter\Database\Config::connect('codeigniter_db')
+ 2 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:10:27 --> codeigniter_db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\MainModel.php(21): CodeIgniter\Database\Config::connect('codeigniter_db')
+ 2 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:10:27 --> codeigniter_db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\MainModel.php(21): CodeIgniter\Database\Config::connect('codeigniter_db')
+ 2 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:10:27 --> codeigniter_db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\MainModel.php(21): CodeIgniter\Database\Config::connect('codeigniter_db')
+ 2 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:12:00 --> Undefined variable $default
+in APPPATH\Models\MainModel.php on line 16.
+ 1 APPPATH\Models\MainModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Models\\MainModel.php', 16)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(19): App\Models\MainModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:12:21 --> Undefined variable $default
+in APPPATH\Models\MainModel.php on line 16.
+ 1 APPPATH\Models\MainModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Models\\MainModel.php', 16)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(19): App\Models\MainModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:12:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Models\MainModel.php on line 22.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:13:43 --> syntax error, unexpected token "protected"
+in APPPATH\Models\MainModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Models\\MainModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MainModel')
+ 3 APPPATH\Controllers\DropdownAjaxController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MainModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:14:09 --> syntax error, unexpected token "protected"
+in APPPATH\Models\MainModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Models\\MainModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MainModel')
+ 3 APPPATH\Controllers\DropdownAjaxController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MainModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:14:27 --> syntax error, unexpected token "public"
+in APPPATH\Models\MainModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Models\\MainModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MainModel')
+ 3 APPPATH\Controllers\DropdownAjaxController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MainModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:14:43 --> syntax error, unexpected token "public"
+in APPPATH\Models\MainModel.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Models\\MainModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MainModel')
+ 3 APPPATH\Controllers\DropdownAjaxController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MainModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:18:15 --> syntax error, unexpected token "protected"
+in APPPATH\Models\MainModel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Models\\MainModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MainModel')
+ 3 APPPATH\Controllers\DropdownAjaxController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MainModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:20:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Models\MainModel.php on line 23.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:21:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Models\MainModel.php on line 23.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:21:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Models\MainModel.php on line 23.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(20): App\Models\MainModel->getCountries()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:44:42 --> Undefined variable $userlist
+in APPPATH\Views\dropdown-view.php on line 69.
+ 1 APPPATH\Views\dropdown-view.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(20): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:45:12 --> Unmatched '}'
+in APPPATH\Views\dropdown-view.php on line 73.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(20): view('dropdown-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:45:27 --> Undefined variable $img
+in APPPATH\Views\dropdown-view.php on line 69.
+ 1 APPPATH\Views\dropdown-view.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(20): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 07:45:46 --> Undefined variable $countries
+in APPPATH\Views\dropdown-view.php on line 96.
+ 1 APPPATH\Views\dropdown-view.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(20): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 08:33:09 --> Undefined variable $userlist
+in APPPATH\Views\dropdown-view.php on line 91.
+ 1 APPPATH\Views\dropdown-view.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(20): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 08:33:34 --> Undefined variable $userlist
+in APPPATH\Views\dropdown-view.php on line 96.
+ 1 APPPATH\Views\dropdown-view.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(20): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 09:15:49 --> Undefined variable $userlist
+in APPPATH\Views\dropdown-view.php on line 96.
+ 1 APPPATH\Views\dropdown-view.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(20): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 09:16:17 --> Undefined variable $userlist
+in APPPATH\Views\dropdown-view.php on line 109.
+ 1 APPPATH\Views\dropdown-view.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(20): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 09:39:32 --> Undefined variable $userlist
+in APPPATH\Views\dropdown-view.php on line 146.
+ 1 APPPATH\Views\dropdown-view.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dropdown-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 5 APPPATH\Controllers\DropdownAjaxController.php(20): view('dropdown-view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 10:24:56 --> Undefined variable $db
+in APPPATH\Models\MainModel.php on line 10.
+ 1 APPPATH\Models\MainModel.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Models\\MainModel.php', 10)
+ 2 APPPATH\Controllers\DropdownAjaxController.php(18): App\Models\MainModel->selectData('countries')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 10:25:59 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Models\MainModel.php on line 14.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(18): App\Models\MainModel->selectData('countries')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 11:05:28 --> Unmatched '}'
+in APPPATH\Views\dropdown-view.php on line 189.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown-view', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(23): view('dropdown-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 11:47:17 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 31.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 11:50:20 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 31.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 11:52:13 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 31.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 11:54:37 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 31.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 11:55:09 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 31.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 11:59:32 --> Object of class App\Models\MainModel could not be converted to string
+in APPPATH\Controllers\DropdownAjaxController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 12:01:28 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 31.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 12:01:43 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 31.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 12:22:50 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 31.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 12:35:54 --> syntax error, unexpected token "(", expecting variable
+in APPPATH\Controllers\DropdownAjaxController.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DropdownAjaxController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DropdownAjaxController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DropdownAjaxController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 12:37:11 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 40.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 12:37:54 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 40.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 12:42:18 --> Array to string conversion
+in APPPATH\Controllers\DropdownAjaxController.php on line 40.
+ 1 APPPATH\Controllers\DropdownAjaxController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->state()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 13:11:26 --> syntax error, unexpected variable "$state"
+in APPPATH\Controllers\DropdownAjaxController.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DropdownAjaxController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DropdownAjaxController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DropdownAjaxController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 13:12:04 --> syntax error, unexpected variable "$state"
+in APPPATH\Controllers\DropdownAjaxController.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DropdownAjaxController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DropdownAjaxController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DropdownAjaxController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 13:12:56 --> syntax error, unexpected variable "$state"
+in APPPATH\Controllers\DropdownAjaxController.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DropdownAjaxController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DropdownAjaxController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DropdownAjaxController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-29 13:24:00 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\DropdownAjaxController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\DropdownAjaxController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DropdownAjaxController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DropdownAjaxController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DropdownAjaxController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

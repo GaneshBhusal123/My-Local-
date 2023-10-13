@@ -1,0 +1,8 @@
+CRITICAL - 2023-06-16 04:38:02 --> Undefined variable $session
+in APPPATH\Controllers\ForgetPasswordController.php on line 71.
+ 1 APPPATH\Controllers\ForgetPasswordController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ForgetPasswordController.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ForgetPasswordController->send_mail()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgetPasswordController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

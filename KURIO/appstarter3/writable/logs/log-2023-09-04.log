@@ -1,0 +1,20 @@
+CRITICAL - 2023-09-04 08:46:32 --> syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+in APPPATH\Views\edit_page.php on line 175.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('edit_page', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(199): view('edit_page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->edit_list('3')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-04 13:16:16 --> syntax error, unexpected '?>'
+in APPPATH\Views\edit_file.php on line 74.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('edit_file', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(143): view('edit_file', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->edit_file('3')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

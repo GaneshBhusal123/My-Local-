@@ -1,0 +1,89 @@
+ERROR - 2023-10-03 05:33:20 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+) in C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 10060, 'A connection at...', 5)
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\EmployeeController.php(132): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\EmployeeController->update()
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-10-03 05:33:20 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-03 05:33:20 --> 
+ERROR - 2023-10-03 07:16:55 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+) in C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 10060, 'A connection at...', 5)
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\EmployeeController.php(136): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\EmployeeController->update()
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-10-03 07:16:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-03 07:16:55 --> 
+ERROR - 2023-10-03 07:17:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+) in C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 10060, 'A connection at...', 5)
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\EmployeeController.php(136): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\EmployeeController->update()
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-10-03 07:17:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-03 07:17:57 --> 
+CRITICAL - 2023-10-03 07:33:01 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\ProfileController.php(201): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-10-03 08:12:04 --> syntax error, unexpected '?>'
+in APPPATH\Views\user_ajax.php on line 185.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_ajax', [], true)
+ 3 APPPATH\Controllers\EmployeeController.php(13): view('user_ajax')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EmployeeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-10-03 08:12:05 --> syntax error, unexpected '?>'
+in APPPATH\Views\user_ajax.php on line 185.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_ajax', [], true)
+ 3 APPPATH\Controllers\EmployeeController.php(13): view('user_ajax')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EmployeeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-10-03 11:22:40 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\ProfileController.php(201): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

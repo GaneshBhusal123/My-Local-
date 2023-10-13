@@ -1,0 +1,771 @@
+CRITICAL - 2023-06-07 04:10:22 --> Undefined variable $request
+in APPPATH\Controllers\SignupController.php on line 46.
+ 1 APPPATH\Controllers\SignupController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\SignupController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SignupController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-06-07 04:11:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:11:24 --> 220 smtp.gmail.com ESMTP ju11-20020a170903428b00b001a9b29b6759sm9311439plb.183 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK ju11-20020a170903428b00b001a9b29b6759sm9311439plb.183 - gsmtp
+
+to: 553-5.1.3 The recipient address <Harman> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 ju11-20020a170903428b00b001a9b29b6759sm9311439plb.183 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <Harman> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 ju11-20020a170903428b00b001a9b29b6759sm9311439plb.183 - gsmtp
+
+quit: 221 2.0.0 closing connection ju11-20020a170903428b00b001a9b29b6759sm9311439plb.183 - gsmtp
+
+ERROR - 2023-06-07 04:13:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:13:05 --> 220 smtp.gmail.com ESMTP r10-20020a17090a2e8a00b0024e227828a9sm326037pjd.24 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK r10-20020a17090a2e8a00b0024e227828a9sm326037pjd.24 - gsmtp
+
+to: 553-5.1.3 The recipient address <Harman> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 r10-20020a17090a2e8a00b0024e227828a9sm326037pjd.24 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <Harman> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 r10-20020a17090a2e8a00b0024e227828a9sm326037pjd.24 - gsmtp
+
+quit: 221 2.0.0 closing connection r10-20020a17090a2e8a00b0024e227828a9sm326037pjd.24 - gsmtp
+
+ERROR - 2023-06-07 04:14:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:14:54 --> 220 smtp.gmail.com ESMTP d12-20020a170902654c00b001b03cda6389sm9416731pln.10 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK d12-20020a170902654c00b001b03cda6389sm9416731pln.10 - gsmtp
+
+to: 553-5.1.3 The recipient address <Tilak> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 d12-20020a170902654c00b001b03cda6389sm9416731pln.10 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <Tilak> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 d12-20020a170902654c00b001b03cda6389sm9416731pln.10 - gsmtp
+
+quit: 221 2.0.0 closing connection d12-20020a170902654c00b001b03cda6389sm9416731pln.10 - gsmtp
+
+ERROR - 2023-06-07 04:25:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:25:12 --> 220 smtp.gmail.com ESMTP a15-20020a62e20f000000b00643aa9436c9sm6777718pfi.172 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK a15-20020a62e20f000000b00643aa9436c9sm6777718pfi.172 - gsmtp
+
+to: 553-5.1.3 The recipient address <Drishyam> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 a15-20020a62e20f000000b00643aa9436c9sm6777718pfi.172 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <Drishyam> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 a15-20020a62e20f000000b00643aa9436c9sm6777718pfi.172 - gsmtp
+
+quit: 221 2.0.0 closing connection a15-20020a62e20f000000b00643aa9436c9sm6777718pfi.172 - gsmtp
+
+ERROR - 2023-06-07 04:27:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:27:15 --> 220 smtp.gmail.com ESMTP i16-20020a170902c95000b001aafb802efbsm9321848pla.12 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK i16-20020a170902c95000b001aafb802efbsm9321848pla.12 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdfdgrg> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 i16-20020a170902c95000b001aafb802efbsm9321848pla.12 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdfdgrg> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 i16-20020a170902c95000b001aafb802efbsm9321848pla.12 - gsmtp
+
+quit: 221 2.0.0 closing connection i16-20020a170902c95000b001aafb802efbsm9321848pla.12 - gsmtp
+
+ERROR - 2023-06-07 04:31:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:31:33 --> 220 smtp.gmail.com ESMTP p5-20020a170902780500b001ac444fd07fsm9425808pll.100 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK p5-20020a170902780500b001ac444fd07fsm9425808pll.100 - gsmtp
+
+to: 553-5.1.3 The recipient address <hsadas> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 p5-20020a170902780500b001ac444fd07fsm9425808pll.100 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <hsadas> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 p5-20020a170902780500b001ac444fd07fsm9425808pll.100 - gsmtp
+
+quit: 221 2.0.0 closing connection p5-20020a170902780500b001ac444fd07fsm9425808pll.100 - gsmtp
+
+ERROR - 2023-06-07 04:33:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:33:55 --> 220 smtp.gmail.com ESMTP c11-20020a170902d48b00b001b0395c3ffasm9310187plg.180 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK c11-20020a170902d48b00b001b0395c3ffasm9310187plg.180 - gsmtp
+
+to: 553-5.1.3 The recipient address <hsadas> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 c11-20020a170902d48b00b001b0395c3ffasm9310187plg.180 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <hsadas> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 c11-20020a170902d48b00b001b0395c3ffasm9310187plg.180 - gsmtp
+
+quit: 221 2.0.0 closing connection c11-20020a170902d48b00b001b0395c3ffasm9310187plg.180 - gsmtp
+
+ERROR - 2023-06-07 04:47:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:47:04 --> 220 smtp.gmail.com ESMTP i18-20020aa787d2000000b0064f51ee5b90sm7529872pfo.62 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK i18-20020aa787d2000000b0064f51ee5b90sm7529872pfo.62 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 i18-20020aa787d2000000b0064f51ee5b90sm7529872pfo.62 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 i18-20020aa787d2000000b0064f51ee5b90sm7529872pfo.62 - gsmtp
+
+quit: 221 2.0.0 closing connection i18-20020aa787d2000000b0064f51ee5b90sm7529872pfo.62 - gsmtp
+
+ERROR - 2023-06-07 04:47:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:47:13 --> 220 smtp.gmail.com ESMTP v18-20020aa78512000000b00639fc7124c2sm7211546pfn.148 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK v18-20020aa78512000000b00639fc7124c2sm7211546pfn.148 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 v18-20020aa78512000000b00639fc7124c2sm7211546pfn.148 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 v18-20020aa78512000000b00639fc7124c2sm7211546pfn.148 - gsmtp
+
+quit: 221 2.0.0 closing connection v18-20020aa78512000000b00639fc7124c2sm7211546pfn.148 - gsmtp
+
+ERROR - 2023-06-07 04:47:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:47:26 --> 220 smtp.gmail.com ESMTP c17-20020a170902d49100b001a5fccab02dsm505558plg.177 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK c17-20020a170902d49100b001a5fccab02dsm505558plg.177 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 c17-20020a170902d49100b001a5fccab02dsm505558plg.177 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 c17-20020a170902d49100b001a5fccab02dsm505558plg.177 - gsmtp
+
+quit: 221 2.0.0 closing connection c17-20020a170902d49100b001a5fccab02dsm505558plg.177 - gsmtp
+
+CRITICAL - 2023-06-07 04:48:31 --> Undefined variable $session
+in APPPATH\Controllers\SignupController.php on line 69.
+ 1 APPPATH\Controllers\SignupController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\SignupController.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SignupController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-06-07 04:49:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:49:21 --> 220 smtp.gmail.com ESMTP f21-20020a170902ab9500b00192aa53a7d5sm9335679plr.8 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK f21-20020a170902ab9500b00192aa53a7d5sm9335679plr.8 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 f21-20020a170902ab9500b00192aa53a7d5sm9335679plr.8 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 f21-20020a170902ab9500b00192aa53a7d5sm9335679plr.8 - gsmtp
+
+quit: 221 2.0.0 closing connection f21-20020a170902ab9500b00192aa53a7d5sm9335679plr.8 - gsmtp
+
+ERROR - 2023-06-07 04:49:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:49:44 --> 220 smtp.gmail.com ESMTP t3-20020a17090b018300b0023fcece8067sm387967pjs.2 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK t3-20020a17090b018300b0023fcece8067sm387967pjs.2 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 t3-20020a17090b018300b0023fcece8067sm387967pjs.2 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 t3-20020a17090b018300b0023fcece8067sm387967pjs.2 - gsmtp
+
+quit: 221 2.0.0 closing connection t3-20020a17090b018300b0023fcece8067sm387967pjs.2 - gsmtp
+
+ERROR - 2023-06-07 04:49:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:49:58 --> 220 smtp.gmail.com ESMTP y8-20020a17090264c800b001ab2592ed33sm9471472pli.171 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK y8-20020a17090264c800b001ab2592ed33sm9471472pli.171 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 y8-20020a17090264c800b001ab2592ed33sm9471472pli.171 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 y8-20020a17090264c800b001ab2592ed33sm9471472pli.171 - gsmtp
+
+quit: 221 2.0.0 closing connection y8-20020a17090264c800b001ab2592ed33sm9471472pli.171 - gsmtp
+
+ERROR - 2023-06-07 04:50:45 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 04:50:45 --> 220 smtp.gmail.com ESMTP g17-20020a635651000000b0053fc6df5895sm8262201pgm.39 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK g17-20020a635651000000b0053fc6df5895sm8262201pgm.39 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 g17-20020a635651000000b0053fc6df5895sm8262201pgm.39 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdfdgdfg> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 g17-20020a635651000000b0053fc6df5895sm8262201pgm.39 - gsmtp
+
+quit: 221 2.0.0 closing connection g17-20020a635651000000b0053fc6df5895sm8262201pgm.39 - gsmtp
+
+CRITICAL - 2023-06-07 05:05:13 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\SignupController.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\SignupController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SignupController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SignupController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SignupController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 05:05:20 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\SignupController.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\SignupController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SignupController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SignupController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SignupController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 05:10:39 --> Undefined variable $request
+in APPPATH\Controllers\SignupController.php on line 44.
+ 1 APPPATH\Controllers\SignupController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\SignupController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SignupController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-06-07 05:12:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 05:12:06 --> 220 smtp.gmail.com ESMTP m13-20020a170902db0d00b001b042e8ed77sm9343394plx.281 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK m13-20020a170902db0d00b001b042e8ed77sm9343394plx.281 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdfsdfe> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 m13-20020a170902db0d00b001b042e8ed77sm9343394plx.281 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdfsdfe> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 m13-20020a170902db0d00b001b042e8ed77sm9343394plx.281 - gsmtp
+
+quit: 221 2.0.0 closing connection m13-20020a170902db0d00b001b042e8ed77sm9343394plx.281 - gsmtp
+
+ERROR - 2023-06-07 05:28:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 05:28:47 --> 220 smtp.gmail.com ESMTP c16-20020a170903235000b001b2404c7d53sm1664536plh.175 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK c16-20020a170903235000b001b2404c7d53sm1664536plh.175 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 c16-20020a170903235000b001b2404c7d53sm1664536plh.175 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 c16-20020a170903235000b001b2404c7d53sm1664536plh.175 - gsmtp
+
+quit: 221 2.0.0 closing connection c16-20020a170903235000b001b2404c7d53sm1664536plh.175 - gsmtp
+
+CRITICAL - 2023-06-07 05:31:10 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\SignupController.php on line 64.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\SignupController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SignupController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SignupController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SignupController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 05:43:03 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\SignupController.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\SignupController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SignupController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SignupController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SignupController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-06-07 05:44:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 05:44:01 --> 220 smtp.gmail.com ESMTP e24-20020a62aa18000000b0065da94fe921sm3476828pff.50 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK e24-20020a62aa18000000b0065da94fe921sm3476828pff.50 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 e24-20020a62aa18000000b0065da94fe921sm3476828pff.50 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 e24-20020a62aa18000000b0065da94fe921sm3476828pff.50 - gsmtp
+
+quit: 221 2.0.0 closing connection e24-20020a62aa18000000b0065da94fe921sm3476828pff.50 - gsmtp
+
+ERROR - 2023-06-07 05:44:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 05:44:31 --> 220 smtp.gmail.com ESMTP t136-20020a635f8e000000b0052863112065sm8290265pgb.35 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK t136-20020a635f8e000000b0052863112065sm8290265pgb.35 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 t136-20020a635f8e000000b0052863112065sm8290265pgb.35 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 t136-20020a635f8e000000b0052863112065sm8290265pgb.35 - gsmtp
+
+quit: 221 2.0.0 closing connection t136-20020a635f8e000000b0052863112065sm8290265pgb.35 - gsmtp
+
+ERROR - 2023-06-07 06:14:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 06:14:18 --> 220 smtp.gmail.com ESMTP u8-20020a170902b28800b001b022f2aa12sm9513788plr.239 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK u8-20020a170902b28800b001b022f2aa12sm9513788plr.239 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 u8-20020a170902b28800b001b022f2aa12sm9513788plr.239 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 u8-20020a170902b28800b001b022f2aa12sm9513788plr.239 - gsmtp
+
+quit: 221 2.0.0 closing connection u8-20020a170902b28800b001b022f2aa12sm9513788plr.239 - gsmtp
+
+ERROR - 2023-06-07 06:16:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 06:16:03 --> 220 smtp.gmail.com ESMTP e16-20020aa78c50000000b0064d5b82f987sm7877432pfd.140 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK e16-20020aa78c50000000b0064d5b82f987sm7877432pfd.140 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 e16-20020aa78c50000000b0064d5b82f987sm7877432pfd.140 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdcsdfsd> is not a valid RFC-5321 address.
+553-5.1.3 Learn more at
+553 5.1.3  https://support.google.com/mail/answer/6596 e16-20020aa78c50000000b0064d5b82f987sm7877432pfd.140 - gsmtp
+
+quit: 221 2.0.0 closing connection e16-20020aa78c50000000b0064d5b82f987sm7877432pfd.140 - gsmtp
+
+ERROR - 2023-06-07 06:24:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 06:24:21 --> 220 smtp.gmail.com ESMTP 24-20020a17090a019800b00259b53dccddsm613101pjc.34 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 24-20020a17090a019800b00259b53dccddsm613101pjc.34 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdffdf> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 24-20020a17090a019800b00259b53dccddsm613101pjc.34 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdffdf> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 24-20020a17090a019800b00259b53dccddsm613101pjc.34 - gsmtp
+
+quit: 221 2.0.0 closing connection 24-20020a17090a019800b00259b53dccddsm613101pjc.34 - gsmtp
+
+ERROR - 2023-06-07 06:32:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 06:32:37 --> 220 smtp.gmail.com ESMTP d12-20020a170902654c00b001b03cda6389sm9701732pln.10 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK d12-20020a170902654c00b001b03cda6389sm9701732pln.10 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdffdf> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 d12-20020a170902654c00b001b03cda6389sm9701732pln.10 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdffdf> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 d12-20020a170902654c00b001b03cda6389sm9701732pln.10 - gsmtp
+
+quit: 221 2.0.0 closing connection d12-20020a170902654c00b001b03cda6389sm9701732pln.10 - gsmtp
+
+ERROR - 2023-06-07 06:39:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 06:39:04 --> 220 smtp.gmail.com ESMTP q28-20020a63505c000000b005143448896csm8412373pgl.58 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK q28-20020a63505c000000b005143448896csm8412373pgl.58 - gsmtp
+
+to: 553-5.1.3 The recipient address <sdffdf> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 q28-20020a63505c000000b005143448896csm8412373pgl.58 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <sdffdf> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 q28-20020a63505c000000b005143448896csm8412373pgl.58 - gsmtp
+
+quit: 221 2.0.0 closing connection q28-20020a63505c000000b005143448896csm8412373pgl.58 - gsmtp
+
+ERROR - 2023-06-07 06:39:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 06:39:29 --> 220 smtp.gmail.com ESMTP y12-20020aa7854c000000b0064d45eea573sm7825996pfn.41 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK y12-20020aa7854c000000b0064d45eea573sm7825996pfn.41 - gsmtp
+
+to: 553-5.1.3 The recipient address <dfgdfg> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 y12-20020aa7854c000000b0064d45eea573sm7825996pfn.41 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <dfgdfg> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 y12-20020aa7854c000000b0064d45eea573sm7825996pfn.41 - gsmtp
+
+quit: 221 2.0.0 closing connection y12-20020aa7854c000000b0064d45eea573sm7825996pfn.41 - gsmtp
+
+ERROR - 2023-06-07 06:40:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-07 06:40:43 --> 220 smtp.gmail.com ESMTP 17-20020a17090a199100b002535a337d45sm669831pji.3 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [115.242.209.74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 17-20020a17090a199100b002535a337d45sm669831pji.3 - gsmtp
+
+to: 553-5.1.3 The recipient address <dfgdfg> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 17-20020a17090a199100b002535a337d45sm669831pji.3 - gsmtp
+
+The following SMTP error was encountered: 553-5.1.3 The recipient address <dfgdfg> is not a valid RFC-5321 address. Learn
+553-5.1.3 more at
+553 5.1.3  https://support.google.com/mail/answer/6596 17-20020a17090a199100b002535a337d45sm669831pji.3 - gsmtp
+
+quit: 221 2.0.0 closing connection 17-20020a17090a199100b002535a337d45sm669831pji.3 - gsmtp
+
+CRITICAL - 2023-06-07 07:26:12 --> Unclosed '{' on line 21
+in APPPATH\Controllers\UpdateCredential.php on line 63.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\UpdateCredential.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UpdateCredential')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UpdateCredential')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UpdateCredential', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 09:29:52 --> Undefined variable $session
+in APPPATH\Controllers\UpdateCredential.php on line 47.
+ 1 APPPATH\Controllers\UpdateCredential.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\UpdateCredential.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UpdateCredential->save_credential()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateCredential))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 10:37:20 --> Undefined variable $email
+in APPPATH\Controllers\SignupController.php on line 31.
+ 1 APPPATH\Controllers\SignupController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\SignupController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SignupController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 10:49:37 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard.php on line 105.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH\Controllers\ProfileController.php(18): view('dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 11:05:05 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\ProfileController.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ProfileController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfileController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfileController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProfileController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 11:05:49 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\ProfileController.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ProfileController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfileController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfileController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProfileController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 11:05:53 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\ProfileController.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ProfileController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfileController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfileController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProfileController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 11:06:15 --> Unclosed '{' on line 6
+in APPPATH\Controllers\ProfileController.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ProfileController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfileController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfileController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProfileController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 11:06:57 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard.php on line 105.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH\Controllers\ProfileController.php(19): view('dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 11:26:24 --> Undefined variable $customerModel
+in APPPATH\Controllers\ProfileController.php on line 23.
+ 1 APPPATH\Controllers\ProfileController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customerModel', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ProfileController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-07 13:46:54 --> "" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 329.
+ 1 SYSTEMPATH\Validation\Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+ 2 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'harshitdubey123@gmail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SignupController.php(41): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

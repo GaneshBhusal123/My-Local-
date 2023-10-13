@@ -1,0 +1,510 @@
+CRITICAL - 2023-06-19 07:31:18 --> Undefined array key "image"
+in APPPATH\Views\dashboard.php on line 128.
+ 1 APPPATH\Views\dashboard.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 128)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 08:48:24 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\UploadMultipleFiles.php(23): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\KURIO\\appstarter3\\writable\\Public/Uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UploadMultipleFiles->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadMultipleFiles))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 09:13:02 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\UploadMultipleFiles.php(24): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\KURIO\\appstarter3\\writable\\Public/Uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UploadMultipleFiles->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadMultipleFiles))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 09:13:06 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\UploadMultipleFiles.php(24): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\KURIO\\appstarter3\\writable\\Public/Uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UploadMultipleFiles->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadMultipleFiles))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 09:49:09 --> Undefined variable $id
+in APPPATH\Controllers\ProfileController.php on line 133.
+ 1 APPPATH\Controllers\ProfileController.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ProfileController.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file('27')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:12:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\file.php on line 37.
+ 1 APPPATH\Views\file.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('file', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(136): view('file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:12:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\file.php on line 37.
+ 1 APPPATH\Views\file.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('file', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(136): view('file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:13:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\file.php on line 37.
+ 1 APPPATH\Views\file.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('file', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(136): view('file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:23:41 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:23:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\file.php on line 37.
+ 1 APPPATH\Views\file.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('file', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(136): view('file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:25:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\file.php on line 37.
+ 1 APPPATH\Views\file.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('file', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(136): view('file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:25:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\file.php on line 37.
+ 1 APPPATH\Views\file.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('file', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(136): view('file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:26:45 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:27:33 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:27:46 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:28:42 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:28:45 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:28:53 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:29:05 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:29:40 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:29:42 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\ProfileController.php on line 22
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\ProfileController.php(22): view('dashboard', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:30:32 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 469.
+ 1 APPPATH\Controllers\ProfileController.php(22): CodeIgniter\Session\Session->set([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:31:51 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 469.
+ 1 APPPATH\Controllers\ProfileController.php(22): CodeIgniter\Session\Session->set([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:33:04 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 469.
+ 1 APPPATH\Controllers\ProfileController.php(22): CodeIgniter\Session\Session->set([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:33:06 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 469.
+ 1 APPPATH\Controllers\ProfileController.php(22): CodeIgniter\Session\Session->set([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:33:14 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 469.
+ 1 APPPATH\Controllers\ProfileController.php(22): CodeIgniter\Session\Session->set([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:33:17 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 469.
+ 1 APPPATH\Controllers\ProfileController.php(22): CodeIgniter\Session\Session->set([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:33:34 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 469.
+ 1 APPPATH\Controllers\ProfileController.php(22): CodeIgniter\Session\Session->set([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:33:59 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 469.
+ 1 APPPATH\Controllers\ProfileController.php(22): CodeIgniter\Session\Session->set([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:34:43 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:34:45 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:34:51 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:36:05 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:36:09 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:36:49 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:36:51 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:37:59 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:38:02 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:38:19 --> Undefined variable $userlist
+in APPPATH\Views\dashboard.php on line 16.
+ 1 APPPATH\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:39:06 --> Undefined array key "id"
+in APPPATH\Views\dashboard.php on line 55.
+ 1 APPPATH\Views\dashboard.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 10:39:10 --> Undefined array key "id"
+in APPPATH\Views\dashboard.php on line 55.
+ 1 APPPATH\Views\dashboard.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 11:44:22 --> Undefined variable $id
+in APPPATH\Controllers\ProfileController.php on line 143.
+ 1 APPPATH\Controllers\ProfileController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ProfileController.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->uploadfile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:00:16 --> Call to undefined function App\Controllers\Isempty()
+in APPPATH\Controllers\ProfileController.php on line 145.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:05:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\file.php on line 37.
+ 1 APPPATH\Views\file.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('file', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(137): view('file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:05:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\file.php on line 37.
+ 1 APPPATH\Views\file.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('file', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(137): view('file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:32:46 --> Call to a member function isValid() on array
+in APPPATH\Controllers\ProfileController.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:33:05 --> Call to a member function Valid() on array
+in APPPATH\Controllers\ProfileController.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:33:51 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\ProfileController.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:33:58 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\ProfileController.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:34:45 --> Call to a member function move() on array
+in APPPATH\Controllers\ProfileController.php on line 145.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:41:08 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\ProfileController.php on line 166.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ProfileController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfileController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfileController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProfileController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 12:45:06 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\ProfileController.php on line 156.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Controllers\\ProfileController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfileController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfileController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProfileController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-06-19 13:29:09 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProfileController.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('Public/Uploads/', '1687181349_bfcfd096c673f83d0ee1')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

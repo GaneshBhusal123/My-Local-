@@ -1,0 +1,21 @@
+CRITICAL - 2023-07-10 13:01:17 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #2 ($direction) must be of type string, null given, called in C:\xampp\htdocs\KURIO\appstarter3\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->orderBy('id', null)
+ 2 APPPATH\Controllers\ProfileController.php(207): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-07-10 13:05:34 --> Undefined variable $userlist
+in APPPATH\Views\file.php on line 36.
+ 1 APPPATH\Views\file.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlist', 'C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\KURIO\\appstarter3\\app\\Views\\file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('file', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(210): view('file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->file()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')

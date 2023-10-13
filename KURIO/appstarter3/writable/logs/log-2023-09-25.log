@@ -1,0 +1,208 @@
+CRITICAL - 2023-09-25 06:22:34 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\dropdown_userlist.php on line 135.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown_userlist', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(177): view('dropdown_userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-25 06:22:54 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\dropdown_userlist.php on line 133.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown_userlist', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(177): view('dropdown_userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-25 06:22:58 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\dropdown_userlist.php on line 133.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown_userlist', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(177): view('dropdown_userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-25 06:23:15 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\dropdown_userlist.php on line 135.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown_userlist', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(177): view('dropdown_userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-25 06:23:17 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\dropdown_userlist.php on line 135.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown_userlist', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(177): view('dropdown_userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+CRITICAL - 2023-09-25 06:23:18 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\dropdown_userlist.php on line 135.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dropdown_userlist', [], true)
+ 3 APPPATH\Controllers\DropdownAjaxController.php(177): view('dropdown_userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->userlist()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-09-25 13:55:21 --> mysqli_sql_exception: Unknown column 'vals' in 'where clause' in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(335): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->delete_selected()
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-25 13:55:21 --> Unknown column 'vals' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `profile`
+WHERE `vals` = :vals:
+AND `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DropdownAjaxController.php(335): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->delete_selected()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-09-25 13:55:33 --> mysqli_sql_exception: Unknown column 'vals' in 'where clause' in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(335): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->delete_selected()
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-25 13:55:33 --> Unknown column 'vals' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `profile`
+WHERE `vals` = :vals:
+AND `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DropdownAjaxController.php(335): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->delete_selected()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-09-25 13:58:13 --> mysqli_sql_exception: Unknown column 'vals' in 'where clause' in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(335): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->delete_selected()
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-25 13:58:13 --> Unknown column 'vals' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `profile`
+WHERE `vals` = :vals:
+AND `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DropdownAjaxController.php(335): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->delete_selected()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
+ERROR - 2023-09-25 14:01:35 --> mysqli_sql_exception: Unknown column 'vals' in 'where clause' in C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\KURIO\appstarter3\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\KURIO\appstarter3\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\KURIO\appstarter3\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\KURIO\appstarter3\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\KURIO\appstarter3\app\Controllers\DropdownAjaxController.php(335): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->delete_selected()
+#8 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+#9 C:\xampp\htdocs\KURIO\appstarter3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\KURIO\appstarter3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\KURIO\appstarter3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-25 14:01:35 --> Unknown column 'vals' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `profile`
+WHERE `vals` = (Array)
+AND `id` IN (Array)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `profile`
+WHERE `vals` = :vals:
+AND `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DropdownAjaxController.php(335): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DropdownAjaxController->delete_selected()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropdownAjaxController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\KURIO\\appstarter3\\public\\index.php')
